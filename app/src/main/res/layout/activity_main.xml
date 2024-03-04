@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="MENGHITUNG LUAS DAN KELILING PERSEGI:"
+        android:textStyle="bold"
+        android:paddingVertical="18dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan panjang"
+        android:textSize="22dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar"
+        android:textSize="22dp"
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/black"
+        android:text="Mulai Perhitungan"
+        android:textStyle="bold"
+        android:onClick="calculateButtonClicked"/>
+
+</LinearLayout>
+
+
+
+
